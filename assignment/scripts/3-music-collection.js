@@ -34,4 +34,15 @@ addToCollection('OldAlbum', 'Prince', 1980);
 console.log(album);
 console.log(collection);
 
-const showCollection = (arr) => {};
+const showCollection = (array) => {
+	console.log(array.length);
+	let i = 0;
+	while (i < array.length) {
+		console.log(
+			`${array[i].title} by ${array[i].artist}, published in ${array[i].yearPublished}`
+		);
+		i++;
+	}
+};
+
+showCollection(collection);
