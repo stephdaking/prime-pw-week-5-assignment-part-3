@@ -33,3 +33,5 @@ console.log(collection);
 addToCollection('OldAlbum', 'Prince', 1980);
 console.log(album);
 console.log(collection);
+
+const showCollection = (arr) => {};
