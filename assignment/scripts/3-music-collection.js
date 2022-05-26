@@ -13,6 +13,8 @@ const addToCollection = (title, artist, yearPublished) => {
 	return album;
 };
 
+console.log(album);
+console.log(collection);
 addToCollection('TitleName', 'FakeArtist', 1997);
 console.log(album);
 console.log(collection);
